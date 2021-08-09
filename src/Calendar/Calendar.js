@@ -12,7 +12,7 @@ const BigCalendar = () => {
 
   const [token, setToken] = useState(localStorage.getItem('token'));
   const [admin, setAdmin] = useState(localStorage.getItem('admin'));
-
+  const newConst = 0;
   const [myEvents, setMyEvents] = useState([
     {
       start: '',
